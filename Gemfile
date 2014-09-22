@@ -9,4 +9,6 @@ group :development, :test do
 	gem 'launchy'
 	gem 'rspec'
 	gem 'shotgun'
+	gem 'bootstrap-sass'
+	gem 'autoprefixer-rails'
 end
