@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<html>
-<head>
-      <h1> La Meune </h1>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="/css/application.css" rel="stylesheet" type="text/css">
-   <link href="/css/bootstrap.css" rel="stylesheet" media="screen">
-   <title>La Meune</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+ 
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/blog.css" rel="stylesheet">
 
-<!-- 
-   Input some bootstrap here! -->
+  </head>
+ 
+   <body>
 
-      <script src="https://code.jquery.com/jquery.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-   <%= yield %>
-</body>
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="/">Home</a>
+          <a class="blog-nav-item" href="/specifications">Specifications</a>
+          <a class="blog-nav-item" href="/contactus">Contact Us</a>
+          <a class="blog-nav-item" href="/video">Video</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">La Meune</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+           
+           <%= yield %>
+            
+          </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      <p> Website built by<a href="https://github.com/tbeeley"> Thomas Beeley </a></p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
 </html>
