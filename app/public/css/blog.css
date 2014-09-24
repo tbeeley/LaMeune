@@ -3,9 +3,11 @@
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-	background-color: #7FC5FF;
-	color: #19527F;
+  font-family: 'EB Garamond', serif;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
+	background-color: #6EA1FF;
+	/*color: #19527F;*/
+  color: #FDF3E7;
 }
 
 h1, .h1,
@@ -27,6 +29,7 @@ h6, .h6 {
 
 @media (min-width: 1200px) {
   .container {
+
     width: 970px;
   }
 }
@@ -89,6 +92,7 @@ h6, .h6 {
   margin-bottom: 15px;
   font-size: 80px;
   font-weight: normal;
+  font-family: 'EB Garamond', serif;
 }
 .blog-description {
   font-size: 20px;
@@ -175,5 +179,11 @@ h6, .h6 {
 	min-height: 450px;
 	min-width: 600px;
 }
+
+  #map_canvas {
+        width: 500px;
+        height: 400px;
+        background-color: white;
+      }
 
 
