@@ -1,1 +1,34 @@
-<div id="map_canvas"></div>
+<div class="blog-post">
+	<li>Toulouse: 1.5 hours</li>
+	<li>Rodez: 1.5 hours</li>
+	<li>Paris: 6 hours</li>
+
+
+
+
+    <div id="map_canvas">
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  function initialize() {
+    var mapCanvas = document.getElementById('map_canvas');
+    var mapOptions = {
+      center: new google.maps.LatLng(44.253944, 1.917661),
+      zoom: 9,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+
+
+var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(44.253944, 1.917661),
+    map: map,
+    title:"La Meune"
+});
+
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+</div>
+
+
