@@ -2,7 +2,7 @@
 
 ENV['RACK_ENV'] = 'test'
 
-require File.join(File.dirname(__FILE__), '..', '..', 'lib/lameune.rb')
+require File.join(File.dirname(__FILE__), '..', '..', 'app/lameune.rb')
 
 require 'capybara'
 require 'capybara/cucumber'
@@ -11,11 +11,11 @@ require 'rspec'
 Capybara.app = LaMeune
 
 class LaMeuneWorld
-  include Capybara::DSL
-  include RSpec::Expectations
-  include RSpec::Matchers
+	include Capybara::DSL
+	include RSpec::Expectations
+	include RSpec::Matchers
 end
 
 World do
-  LaMeuneWorld.new
+	LaMeuneWorld.new
 end
