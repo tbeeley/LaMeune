@@ -5,7 +5,7 @@ LaMeune
 
 ##Objectives
 
-To make a static website for a friend, whilst revising Sinatra, HTML, CSS and cucumber testing. 
+To make a static website for a friend, whilst revising Sinatra, HTML, CSS and cucumber testing. Maps and Video's were added using Google and Youtube's APIs. 
 
 ##Technologies
 
@@ -14,6 +14,9 @@ To make a static website for a friend, whilst revising Sinatra, HTML, CSS and cu
     * Sinatra
     * HTML
     * CSS
+    * Javascript
+    * Google API
+    * Youtube API
     * Twitter Bootstrap
 
 ##Website:
