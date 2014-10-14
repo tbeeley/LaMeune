@@ -1,7 +1,7 @@
 LaMeune
 =======
 
-![Picture](./app/public/images/screenshot12.png)
+![Picture](./app/public/images/screenshot13.png)
 
 ##Objectives
 
